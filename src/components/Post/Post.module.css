@@ -1,0 +1,145 @@
+.post + post {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.post {
+    background: var(--gray-600);
+    padding:2.5rem;
+    margin-bottom: 0.75rem;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    height: 100%;
+    margin: 48px 192px 0px;
+    padding: 24px;
+    border-radius: 3px;
+    border: solid 1px #3b3b3b;
+    background-color: #313131;
+}
+
+.content p {
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.content a {
+    font-weight: bold;
+    color: var(--green-400);   
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: var(--green-400);
+}
+
+.post > header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post > header time {
+    font-size: 0.875rem;
+    color: var(--gray-400);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.authorInfo strong {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--gray-400);
+    line-height: 0.3rem;    
+
+}
+
+.authorInfo span {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--gray-400);
+    line-height: 2.6rem;
+
+}
+
+.feedForm {
+    height: 100%;
+    margin: 48px 192px 0px;
+    padding: 24px;
+    border-radius: 3px;
+    border: solid 1px #3b3b3b;
+    background-color: #313131;
+
+}
+
+.feedForm input {
+    width: 100%;
+    background-color: var(--gray-700);
+    border: 0;
+    resize: none;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-100);
+    line-height: 1.4;
+    margin-top: 1rem;
+}
+
+.feedForm textarea {
+    width: 100%;
+    background-color: var(--gray-700);
+    border: 0;
+    resize: none;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-100);
+    line-height: 1.4;
+    margin-top: 1rem;
+}
+
+.feedForm button[type=submit] {
+    padding: 1rem 2.5rem;
+    margin-left:  30rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 0;
+    background: var(--green-400);
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    height: 2.9rem;
+}
+
+.feedForm button[type=submit]:hover {
+    background: var(--green-400);
+
+}
+
+
+.feedForm button {
+    background: var(--green-400);
+}
+
+.feedForm footer {
+    visibility: hidden; 
+    max-height: 0;
+}
+
+.feedForm:focus-within footer {
+    visibility: visible;
+    max-height: none;
+}
+
+
+.feedList {
+    margin-top: 2rem;
+}
+
